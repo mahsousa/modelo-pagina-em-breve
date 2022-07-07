@@ -1,0 +1,52 @@
+* {
+    color: white;
+    text-align: center;
+}
+
+body {
+    min-height: 90vh;
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container .bg{
+    background-image: url(../img/clock-black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.container .bg .conteudo{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .bg .conteudo p{
+    font-size: 19px;
+}
+
+.container .bg .conteudo h2{
+    font-size: 85px;
+}
+
+.btn-voltar button{
+    background: none;
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.btn-voltar a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
